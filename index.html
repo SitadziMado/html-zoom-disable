@@ -55,7 +55,10 @@
                 and try to make you are close to them.  
             </p> 
         </div> 
-    </center> 
-</body> 
-  
+    </center>
+    <script>
+      var body = document.getElementsByTagName('body')[0];
+      body.addEventListener("touchmove", (event) => { event.preventDefault(); }, false);
+    </script>
+</body>
 </html>    
